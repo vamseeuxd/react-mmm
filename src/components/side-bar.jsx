@@ -26,7 +26,7 @@ export const AppSideBar = ({isOpen}) => {
                     {
                         monthsList.map(month=>(
                             <li className="nav-item" key={'month_'+month.id}>
-                                <a className="nav-link active" href="#">{month.title}</a>
+                                <span className="nav-link active">{month.title}</span>
                             </li>
                         ))
                     }

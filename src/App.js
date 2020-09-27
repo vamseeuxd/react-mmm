@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {AppNavBar} from "./components/nav-bar";
 import {AppSideBar} from "./components/side-bar";
